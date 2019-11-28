@@ -3,6 +3,7 @@ session_start();
 include('includes/config.php');
 if(isset($_POST['login']))
 {
+	
 $email=$_POST['email'];
 $password=$_POST['password'];
 $stmt=$mysqli->prepare("SELECT email,password,id FROM userregistration WHERE email=? and password=? ");
