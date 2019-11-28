@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 16, 2019 at 04:25 PM
+-- Generation Time: Nov 28, 2019 at 04:06 PM
 -- Server version: 10.3.16-MariaDB
 -- PHP Version: 7.3.6
 
@@ -42,20 +42,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `username`, `email`, `password`, `reg_date`, `updation_date`) VALUES
-(1, 'admin', 'code.lpu1@gmail.com', '1', '2016-04-04 20:31:45', '2019-09-23');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `adminlog`
---
-
-CREATE TABLE `adminlog` (
-  `id` int(11) NOT NULL,
-  `adminid` int(11) NOT NULL,
-  `ip` varbinary(16) NOT NULL,
-  `logintime` timestamp NOT NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+(1, 'admin', 'Haha@gmail.com', '1', '2016-04-04 20:31:45', '2019-11-23');
 
 -- --------------------------------------------------------
 
@@ -95,16 +82,6 @@ CREATE TABLE `booking` (
   `updationDate` varchar(500) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `booking`
---
-
-INSERT INTO `booking` (`id`, `sescode`, `time`, `feespm`, `protstatus`, `starton`, `duration`, `trainer`, `regno`, `firstName`, `middleName`, `lastName`, `gender`, `contactno`, `emailid`, `egycontactno`, `guardianName`, `guardianRelation`, `guardianContactno`, `corresAddress`, `corresCIty`, `corresState`, `corresPincode`, `pmntAddress`, `pmntCity`, `pmnatetState`, `pmntPincode`, `postingDate`, `updationDate`) VALUES
-(8, 112, 3, 4000, 0, '2016-06-27', 5, 'Bachelor  of Science', 102355, 'Harry', 'projects', 'Singh', 'male', 6786786786, 'Harry@gmail.com', 789632587, 'demo', 'demo', 1234567890, 'New Delhi', 'Delhi', 'Delhi (NCT)', 110001, 'New Delhi', 'Delhi', 'Delhi (NCT)', 110001, '2016-06-26 16:31:08', ''),
-(9, 132, 5, 2000, 1, '2016-06-28', 6, 'Bachelor of Engineering', 586952, 'Benjamin', '', 'projects', 'male', 8596185625, 'Benjamin@gmail.com', 8285703354, 'demo', 'demo', 8285703354, 'H no- 18/1 Bihari puram phase-1 melrose bye pass', 'Aligarh', 'EPE', 202001, 'H no- 18/1 Bihari puram phase-1 melrose bye pass', 'Aligarh', 'EPE', 202001, '2016-06-26 16:40:07', ''),
-(20, 101, 911, 20, 0, '2019-11-11', 2, 'Loh Saiful', 3454, 'Abang', 'Hasif', 'Ajmal', 'male', 198875643, 'abg@gmail.com', 999, 'Ahmad', 'Father', 999, 'No 33, Jalan Hantu, Klang, Selangor', 'Klang', 'Selangor\r\n', 23455, 'No 33, Jalan Hantu, Klang, Selangor', 'Klang', 'Selangor\r\n', 23455, '2019-11-07 09:38:45', ''),
-(23, 102, 1101, 70, 0, '2019-11-07', 3, 'Wang Genji', 4243, 'Tengku', 'Kamal', 'Adli', 'male', 9999999, 'halineymar113@gmail.com', 444, 'Saiful', 'Mother', 777, 'No 27,Kampung Pauh,', 'Kuala Berang', 'Pahang', 21700, 'No 27,Kampung Pauh,', 'Kuala Berang', 'Pahang', 21700, '2019-11-09 11:43:19', '');
-
 -- --------------------------------------------------------
 
 --
@@ -124,8 +101,34 @@ CREATE TABLE `session` (
 --
 
 INSERT INTO `session` (`id`, `time`, `sescode`, `fees`, `posting_date`) VALUES
-(14, 911, 101, 20, '2019-10-18 16:00:00'),
-(15, 1101, 102, 70, '2019-10-18 16:01:53');
+(27, 230415, 101, 320, '2019-11-28 14:55:33'),
+(28, 445615, 102, 240, '2019-11-28 14:57:16'),
+(29, 800945, 103, 280, '2019-11-28 14:57:28'),
+(30, 10001145, 104, 300, '2019-11-28 14:57:42'),
+(31, 230415, 201, 240, '2019-11-28 14:58:48'),
+(32, 445615, 202, 320, '2019-11-28 14:59:05'),
+(33, 800945, 203, 280, '2019-11-28 14:59:25'),
+(34, 10001145, 204, 300, '2019-11-28 14:59:39'),
+(35, 230415, 301, 280, '2019-11-28 15:00:04'),
+(36, 445615, 302, 320, '2019-11-28 15:00:19'),
+(37, 800945, 303, 240, '2019-11-28 15:00:36'),
+(38, 10001145, 304, 300, '2019-11-28 15:00:49'),
+(39, 230415, 401, 300, '2019-11-28 15:01:12'),
+(40, 445615, 402, 240, '2019-11-28 15:01:30'),
+(41, 800945, 403, 320, '2019-11-28 15:01:48'),
+(42, 10001145, 404, 280, '2019-11-28 15:02:02'),
+(43, 245430, 501, 280, '2019-11-28 15:02:19'),
+(44, 445615, 502, 320, '2019-11-28 15:02:34'),
+(45, 800945, 503, 240, '2019-11-28 15:02:53'),
+(46, 10001145, 504, 300, '2019-11-28 15:03:07'),
+(47, 230415, 601, 320, '2019-11-28 15:03:20'),
+(48, 445615, 602, 240, '2019-11-28 15:03:33'),
+(49, 800945, 603, 280, '2019-11-28 15:03:48'),
+(50, 10001145, 604, 300, '2019-11-28 15:04:02'),
+(51, 230415, 701, 240, '2019-11-28 15:04:18'),
+(52, 445615, 702, 320, '2019-11-28 15:04:37'),
+(53, 800945, 703, 280, '2019-11-28 15:04:51'),
+(54, 10001145, 704, 300, '2019-11-28 15:05:05');
 
 -- --------------------------------------------------------
 
@@ -176,9 +179,10 @@ CREATE TABLE `trainer` (
 --
 
 INSERT INTO `trainer` (`id`, `phone`, `username`, `fullname`, `posting_date`) VALUES
-(8, '0199952203', 'King Kong', 'Loh Saiful', '2019-09-23 05:53:40'),
-(9, '0129988745', 'Monster', 'Wang Genji', '2019-09-23 12:33:44'),
-(10, '019994555', 'Mana', 'Hazman', '2019-10-09 04:08:10');
+(12, '01119325689', 'Mat', 'Mohd Hafiz', '2019-11-28 14:21:53'),
+(13, '0142127515', 'Iwey', 'Alif Syazwan', '2019-11-28 14:23:35'),
+(14, '0149046896', 'Wang', 'Ridzuan Sumiri', '2019-11-28 14:24:46'),
+(15, '0192558239', 'Ijat', 'Tengku Izzat', '2019-11-28 14:25:50');
 
 -- --------------------------------------------------------
 
@@ -201,7 +205,27 @@ CREATE TABLE `userlog` (
 --
 
 INSERT INTO `userlog` (`id`, `userId`, `userEmail`, `userIp`, `city`, `country`, `loginTime`) VALUES
-(48, 23, 'halineymar113@gmail.com', 0x3a3a31, '', '', '2019-11-12 16:56:37');
+(48, 23, 'halineymar113@gmail.com', 0x3a3a31, '', '', '2019-11-12 16:56:37'),
+(49, 23, 'halineymar113@gmail.com', 0x3a3a31, '', '', '2019-11-20 04:57:23'),
+(50, 23, 'halineymar113@gmail.com', 0x3a3a31, '', '', '2019-11-20 04:58:21'),
+(51, 23, 'halineymar113@gmail.com', 0x3a3a31, '', '', '2019-11-20 06:28:31'),
+(52, 23, 'halineymar113@gmail.com', 0x3a3a31, '', '', '2019-11-23 15:12:16'),
+(53, 23, 'halineymar113@gmail.com', 0x3a3a31, '', '', '2019-11-25 15:35:28'),
+(54, 23, 'halineymar113@gmail.com', 0x3a3a31, '', '', '2019-11-25 15:35:29'),
+(55, 23, 'halineymar113@gmail.com', 0x3a3a31, '', '', '2019-11-25 18:48:55'),
+(56, 23, 'halineymar113@gmail.com', 0x3a3a31, '', '', '2019-11-25 18:49:01'),
+(57, 23, 'halineymar113@gmail.com', 0x3a3a31, '', '', '2019-11-26 16:53:31'),
+(58, 23, 'halineymar113@gmail.com', 0x3a3a31, '', '', '2019-11-26 17:00:47'),
+(59, 23, 'halineymar113@gmail.com', 0x3a3a31, '', '', '2019-11-27 07:01:39'),
+(60, 23, 'halineymar113@gmail.com', 0x3a3a31, '', '', '2019-11-27 07:01:39'),
+(61, 23, 'halineymar113@gmail.com', 0x3a3a31, '', '', '2019-11-27 07:01:40'),
+(62, 27, 'rasmi@gmail.com', 0x3a3a31, '', '', '2019-11-27 14:39:29'),
+(63, 24, 'abg@gmail.com', 0x3a3a31, '', '', '2019-11-27 15:52:38'),
+(64, 23, 'halineymar113@gmail.com', 0x3a3a31, '', '', '2019-11-27 17:10:48'),
+(65, 23, 'halineymar113@gmail.com', 0x3a3a31, '', '', '2019-11-28 11:13:24'),
+(66, 28, 'freedomgundam52@gmail.com', 0x3139322e3136382e34332e3439, '', '', '2019-11-28 13:32:31'),
+(67, 23, 'halineymar113@gmail.com', 0x3a3a31, '', '', '2019-11-28 13:45:00'),
+(68, 23, 'halineymar113@gmail.com', 0x3a3a31, '', '', '2019-11-28 14:53:33');
 
 -- --------------------------------------------------------
 
@@ -233,8 +257,10 @@ INSERT INTO `userregistration` (`id`, `regNo`, `firstName`, `middleName`, `lastN
 (19, '102355', 'Harry', 'projects', 'Singh', 'male', 6786786786, 'Harry@gmail.com', '6786786786', '2016-06-26 16:33:36', '', ''),
 (20, '586952', 'Benjamin', '', 'projects', 'male', 8596185625, 'Benjamin@gmail.com', '8596185625', '2016-06-26 16:40:07', '', ''),
 (22, '12', 'Abdul', 'man', 'Halim', 'others', 333, 'hali@gmail.com', '333', '2019-09-22 17:15:36', '', ''),
-(23, '4243', 'Tengku', 'Kamal', 'Adli', 'male', 9999999, 'halineymar113@gmail.com', '1', '2019-09-22 17:19:04', '19-10-2019 09:03:10', '19-10-2019 06:06:58'),
-(24, '3454', 'Abang', 'Hasif', 'Ajmal', 'male', 198875643, 'abg@gmail.com', '1', '2019-09-23 12:54:54', '07-11-2019 02:55:57', '07-11-2019 02:59:33');
+(23, '4242', 'Teng', 'Kamal', 'Fahmi', 'male', 8, 'halineymar113@gmail.com', '1', '2019-09-22 17:19:04', '28-11-2019 04:43:37', '20-11-2019 10:34:46'),
+(24, '3454', 'Abang', 'Hasif', 'Ajmal', 'male', 198875643, 'abg@gmail.com', '1', '2019-09-23 12:54:54', '07-11-2019 02:55:57', '07-11-2019 02:59:33'),
+(27, '1234', 'Rasmi', 'Jang', 'Ni', 'male', 999, 'rasmi@gmail.com', '1', '2019-11-27 14:38:49', '', ''),
+(28, '5623', 'loh', 'kacak', 'bergaya', 'others', 3516978, 'freedomgundam52@gmail.com', 'animax21', '2019-11-28 13:32:12', '', '');
 
 --
 -- Indexes for dumped tables
@@ -296,13 +322,13 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `booking`
 --
 ALTER TABLE `booking`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 
 --
 -- AUTO_INCREMENT for table `session`
 --
 ALTER TABLE `session`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=55;
 
 --
 -- AUTO_INCREMENT for table `states`
@@ -314,22 +340,21 @@ ALTER TABLE `states`
 -- AUTO_INCREMENT for table `trainer`
 --
 ALTER TABLE `trainer`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT for table `userlog`
 --
 ALTER TABLE `userlog`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=49;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=69;
 
 --
 -- AUTO_INCREMENT for table `userregistration`
 --
 ALTER TABLE `userregistration`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-heroku_495aaa2cb1fa4bbheroku_495aaa2cb1fa4bbheroku_495aaa2cb1fa4bbheroku_495aaa2cb1fa4bbheroku_495aaa2cb1fa4bbheroku_495aaa2cb1fa4bbheroku_495aaa2cb1fa4bbheroku_495aaa2cb1fa4bbheroku_495aaa2cb1fa4bb

@@ -17,7 +17,7 @@
 <?php
 } else { ?>
 <div class="brand clearfix">
-		<a href="index3.php" class="logo" style="font-size:16px;">ADY GYM</a>
+		<a href="index.php" class="logo" style="font-size:16px;">ADY GYM</a>
 		<span class="menu-btn"><i class="fa fa-bars"></i></span>
 		
 	</div>

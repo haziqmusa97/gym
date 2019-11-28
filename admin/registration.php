@@ -43,7 +43,7 @@ $query1="insert into  userregistration(regNo,firstName,middleName,lastName,gende
 $stmt1= $mysqli->prepare($query1);
 $stmt1->bind_param('sssssiss',$regno,$fname,$mname,$lname,$gender,$contactno,$emailid,$contactno);
 $stmt1->execute();
-echo"<script>alert('Booking Successful');</script>";
+echo"<script>alert('Registration Successful');</script>";
 }
 ?>
 

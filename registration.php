@@ -15,7 +15,7 @@ $query="insert into  userRegistration(regNo,firstName,middleName,lastName,gender
 $stmt = $mysqli->prepare($query);
 $rc=$stmt->bind_param('sssssiss',$regno,$fname,$mname,$lname,$gender,$contactno,$emailid,$password);
 $stmt->execute();
-echo"<script>alert('Booking Successful');</script>";
+echo"<script>alert('Registration Successfull');</script>";
 }
 ?>
 

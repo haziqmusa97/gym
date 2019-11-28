@@ -346,10 +346,11 @@ return true;
 					<h3>Opening Hours</h3>
 					<div class="col-md-4 col-sm-4 col-xs-6">
 						<ul class="fh5co-footer-links">
-							<p>9.00 am - 12.00 am</p>
+							<p>2.00 pm - 12.00 am</p>
 						</ul>
 					</div>
 				</div>
+				
 			</div>
 		</div>
 </footer>

@@ -74,34 +74,28 @@ th {
                               <th>Fees</th>
                           </tr>
                           <tr>
-                              <td>9:00 AM - 11:00 AM</td>
-                              <td>Cardio (101)</td>
-                              <td>Angel Adams</td>
-                              <td>RM 60</td>
+                              <td>2:30 PM - 4:15 PM</td>
+                              <td>Body Building (101)</td>
+                              <td>Tengku Izzat</td>
+                              <td>RM 320</td>
                           </tr>
                           <tr>
-                              <td>11:00 AM - 1:00 PM</td>
-                              <td>Body Building (102)</td>
-                              <td>Ridzuan</td>
-                              <td>RM 60</td>
+                              <td>4:45 PM - 6:30 PM</td>
+                              <td>Weight Loss (102)</td>
+                              <td>Alif Syazwan</td>
+                              <td>RM 240</td>
                           </tr>
                           <tr>
-                              <td>3:00 PM - 5:00 PM</td>
-                              <td>Boxing (103)</td>
-                              <td>Ridzuan Sumi</td>
-                              <td>RM 60</td>
+                              <td>8:00 PM - 9:45 PM</td>
+                              <td>Fitness (103)</td>
+                              <td>Mohd Hafiz</td>
+                              <td>RM 280</td>
                           </tr>
                           <tr>
-                              <td>5:00 PM - 7:00 PM</td>
-                              <td>Fitness (104)</td>
-                              <td>Ridzuan Sumi</td>
-                              <td>RM 60</td>
-                          </tr>
-                          <tr>
-                              <td>8:00 PM - 10:00 PM</td>
-                              <td>Body Building (105)</td>
-                              <td>Ridzuan Sumi</td>
-                              <td>RM 60</td>
+                              <td>10:00 PM - 11:45 PM</td>
+                              <td>Strength (104)</td>
+                              <td>Ridzuan Sumiri</td>
+                              <td>RM 300</td>
                           </tr>
                 </table>
                 <table id="t01">
@@ -113,35 +107,31 @@ th {
                               <th>Fees</th>
                           </tr>
                           <tr>
-                              <td>9:00 AM - 11:00 AM</td>
-                              <td>Cardio (201)</td>
-                              <td>Angel Adams</td>
-                              <td>RM 60</td>
+                              <td>2:30 PM - 4:15 PM</td>
+                              <td>Weight Loss (201)</td>
+                              <td>Alif Syazwan</td>
+                              <td>RM 240</td>
                           </tr>
                           <tr>
-                              <td>11:00 AM - 1:00 PM</td>
+                              <td>4:45 PM - 6:30 PM</td>
                               <td>Body Building (202)</td>
-                              <td>Ridzuan</td>
-                              <td>RM 60</td>
+                              <td>Tengku Izzat</td>
+                              <td>RM 320</td>
                           </tr>
                           <tr>
-                              <td>3:00 PM - 5:00 PM</td>
-                              <td>Boxing (203)</td>
-                              <td>Ridzuan Sumi</td>
-                              <td>RM 60</td>
+                              <td>8:00 PM - 9:45 PM</td>
+                              <td>Fitness (203)</td>
+                              <td>Mohd Hafiz</td>
+                              <td>RM 280</td>
+                          
                           </tr>
                           <tr>
-                              <td>5:00 PM - 7:00 PM</td>
-                              <td>Fitness (204)</td>
-                              <td>Ridzuan Sumi</td>
-                              <td>RM 60</td>
+                              <td>10:00 PM - 11:45 PM</td>
+                              <td>Strength (204)</td>
+                              <td>Ridzuan Sumiri</td>
+                              <td>RM 300</td>
                           </tr>
-                          <tr>
-                              <td>8:00 PM - 10:00 PM</td>
-                              <td>Body Building (205)</td>
-                              <td>Ridzuan Sumi</td>
-                              <td>RM 60</td>
-                          </tr>
+                          
                 </table>
                 <table id="t01">
 					<h3>Wednesday</h3>
@@ -152,35 +142,31 @@ th {
                               <th>Fees</th>
                           </tr>
                          <tr>
-                              <td>9:00 AM - 11:00 AM</td>
-                              <td>Cardio (301)</td>
-                              <td>Angel Adams</td>
-                              <td>RM 60</td>
+                              <td>2:30 PM - 4:15 PM</td>
+                              <td>Fitness (301)</td>
+                              <td>Mohd Hafiz</td>
+                              <td>RM 280</td>
                           </tr>
                           <tr>
-                              <td>11:00 AM - 1:00 PM</td>
+                              <td>4:45 PM - 6:30 PM</td>
                               <td>Body Building (302)</td>
-                              <td>Ridzuan</td>
-                              <td>RM 60</td>
+                              <td>Tengku Izzat</td>
+                              <td>RM 320</td>
                           </tr>
                           <tr>
-                              <td>3:00 PM - 5:00 PM</td>
-                              <td>Boxing (303)</td>
-                              <td>Ridzuan Sumi</td>
-                              <td>RM 60</td>
+                              <td>8:00 PM - 9:45 PM</td>
+                              <td>Weight Loss (303)</td>
+                              <td>Alif Syazwan</td>
+                              <td>RM 240</td>
+                          
                           </tr>
                           <tr>
-                              <td>5:00 PM - 7:00 PM</td>
-                              <td>Fitness (304)</td>
-                              <td>Ridzuan Sumi</td>
-                              <td>RM 60</td>
+                              <td>10:00 PM - 11:45 PM</td>
+                              <td>Strength (304)</td>
+                              <td>Ridzuan Sumiri</td>
+                              <td>RM 300</td>
                           </tr>
-                          <tr>
-                              <td>8:00 PM - 10:00 PM</td>
-                              <td>Body Building (305)</td>
-                              <td>Ridzuan Sumi</td>
-                              <td>RM 60</td>
-                          </tr>
+                          
                 </table>
                 <table id="t01">
 					<h3>Thursday</h3>
@@ -190,35 +176,30 @@ th {
                               <th>Trainer</th>
                               <th>Fees</th>
                           </tr>
-                          <tr>
-                              <td>9:00 AM - 11:00 AM</td>
-                              <td>Cardio (401)</td>
-                              <td>Angel Adams</td>
-                              <td>RM 60</td>
+                         <tr>
+                              <td>2:30 PM - 4:15 PM</td>
+                              <td>Strength (401)</td>
+                              <td>Ridzuan Sumiri</td>
+                              <td>RM 300</td>
                           </tr>
                           <tr>
-                              <td>11:00 AM - 1:00 PM</td>
-                              <td>Body Building (402)</td>
-                              <td>Ridzuan</td>
-                              <td>RM 60</td>
+                              <td>4:45 PM - 6:30 PM</td>
+                              <td>Weight Loss (402)</td>
+                              <td>Alif Syazwan</td>
+                              <td>RM 240</td>
                           </tr>
                           <tr>
-                              <td>3:00 PM - 5:00 PM</td>
-                              <td>Boxing (403)</td>
-                              <td>Ridzuan Sumi</td>
-                              <td>RM 60</td>
+                              <td>8:00 PM - 9:45 PM</td>
+                              <td>Body Building (403)</td>
+                              <td>Tengku Izzat</td>
+                              <td>RM 320</td>
+                          
                           </tr>
                           <tr>
-                              <td>5:00 PM - 7:00 PM</td>
+                              <td>10:00 PM - 11:45 PM</td>
                               <td>Fitness (404)</td>
-                              <td>Ridzuan Sumi</td>
-                              <td>RM 60</td>
-                          </tr>
-                          <tr>
-                              <td>8:00 PM - 10:00 PM</td>
-                              <td>Body Building (405)</td>
-                              <td>Ridzuan Sumi</td>
-                              <td>RM 60</td>
+                              <td>Mohd Hafiz</td>
+                              <td>RM 280</td>
                           </tr>
                 </table>
                 <table id="t01">
@@ -230,34 +211,29 @@ th {
                               <th>Fees</th>
                           </tr>
                          <tr>
-                              <td>9:00 AM - 11:00 AM</td>
-                              <td>Cardio (501)</td>
-                              <td>Angel Adams</td>
-                              <td>RM 60</td>
+                              <td>2:45 PM - 4:30 PM</td>
+                              <td>Fitness (501)</td>
+                              <td>Mohd Hafiz</td>
+                              <td>RM 280</td>
                           </tr>
                           <tr>
-                              <td>11:00 AM - 1:00 PM</td>
+                              <td>4:45 PM - 6:30 PM</td>
                               <td>Body Building (502)</td>
-                              <td>Ridzuan</td>
-                              <td>RM 60</td>
+                              <td>Tengku Izzat</td>
+                              <td>RM 320</td>
                           </tr>
                           <tr>
-                              <td>3:00 PM - 5:00 PM</td>
-                              <td>Boxing (503)</td>
-                              <td>Ridzuan Sumi</td>
-                              <td>RM 60</td>
+                              <td>8:00 PM - 9:45 PM</td>
+                              <td>Weight Loss (503)</td>
+                              <td>Alif Syazwan</td>
+                              <td>RM 240</td>
+                          
                           </tr>
                           <tr>
-                              <td>5:00 PM - 7:00 PM</td>
-                              <td>Fitness (504)</td>
-                              <td>Ridzuan Sumi</td>
-                              <td>RM 60</td>
-                          </tr>
-                          <tr>
-                              <td>8:00 PM - 10:00 PM</td>
-                              <td>Body Building (505)</td>
-                              <td>Ridzuan Sumi</td>
-                              <td>RM 60</td>
+                              <td>10:00 PM - 11:45 PM</td>
+                              <td>Strength (504)</td>
+                              <td>Ridzuan Sumiri</td>
+                              <td>RM 300</td>
                           </tr>
                 </table>
                 <table id="t01">
@@ -268,35 +244,29 @@ th {
                               <th>Trainer</th>
                               <th>Fees</th>
                           </tr>
-                         <tr>
-                              <td>9:00 AM - 11:00 AM</td>
-                              <td>Cardio (601)</td>
-                              <td>Angel Adams</td>
-                              <td>RM 60</td>
+                        <tr>
+                              <td>2:30 PM - 4:15 PM</td>
+                              <td>Body Building (601)</td>
+                              <td>Tengku Izzat</td>
+                              <td>RM 320</td>
                           </tr>
                           <tr>
-                              <td>11:00 AM - 1:00 PM</td>
-                              <td>Body Building (602)</td>
-                              <td>Ridzuan</td>
-                              <td>RM 60</td>
+                              <td>4:45 PM - 6:30 PM</td>
+                              <td>Weight Loss (602)</td>
+                              <td>Alif Syazwan</td>
+                              <td>RM 240</td>
                           </tr>
                           <tr>
-                              <td>3:00 PM - 5:00 PM</td>
-                              <td>Boxing (603)</td>
-                              <td>Ridzuan Sumi</td>
-                              <td>RM 60</td>
+                              <td>8:00 PM - 9:45 PM</td>
+                              <td>Fitness (603)</td>
+                              <td>Mohd Hafiz</td>
+                              <td>RM 280</td>
                           </tr>
                           <tr>
-                              <td>5:00 PM - 7:00 PM</td>
-                              <td>Fitness (604)</td>
-                              <td>Ridzuan Sumi</td>
-                              <td>RM 60</td>
-                          </tr>
-                          <tr>
-                              <td>8:00 PM - 10:00 PM</td>
-                              <td>Body Building (605)</td>
-                              <td>Ridzuan Sumi</td>
-                              <td>RM 60</td>
+                              <td>10:00 PM - 11:45 PM</td>
+                              <td>Strength (604)</td>
+                              <td>Ridzuan Sumiri</td>
+                              <td>RM 300</td>
                           </tr>
                 </table>
                 <table id="t01">
@@ -307,35 +277,30 @@ th {
                               <th>Trainer</th>
                               <th>Fees</th>
                           </tr>
-                          <tr>
-                              <td>9:00 AM - 11:00 AM</td>
-                              <td>Cardio (701)</td>
-                              <td>Angel Adams</td>
-                              <td>RM 60</td>
+                           <tr>
+                              <td>2:30 PM - 4:15 PM</td>
+                              <td>Weight Loss (701)</td>
+                              <td>Alif Syazwan</td>
+                              <td>RM 240</td>
                           </tr>
                           <tr>
-                              <td>11:00 AM - 1:00 PM</td>
+                              <td>4:45 PM - 6:30 PM</td>
                               <td>Body Building (702)</td>
-                              <td>Ridzuan</td>
-                              <td>RM 60</td>
+                              <td>Tengku Izzat</td>
+                              <td>RM 320</td>
                           </tr>
                           <tr>
-                              <td>3:00 PM - 5:00 PM</td>
-                              <td>Boxing (703)</td>
-                              <td>Ridzuan Sumi</td>
-                              <td>RM 60</td>
+                              <td>8:00 PM - 9:45 PM</td>
+                              <td>Fitness (703)</td>
+                              <td>Mohd Hafiz</td>
+                              <td>RM 280</td>
+                          
                           </tr>
                           <tr>
-                              <td>5:00 PM - 7:00 PM</td>
-                              <td>Fitness (704)</td>
-                              <td>Ridzuan Sumi</td>
-                              <td>RM 60</td>
-                          </tr>
-                          <tr>
-                              <td>8:00 PM - 10:00 PM</td>
-                              <td>Body Building (705)</td>
-                              <td>Ridzuan Sumi</td>
-                              <td>RM 60</td>
+                              <td>10:00 PM - 11:45 PM</td>
+                              <td>Strength (704)</td>
+                              <td>Ridzuan Sumiri</td>
+                              <td>RM 300</td>
                           </tr>
                 </table>
             </div>

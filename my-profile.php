@@ -19,7 +19,7 @@ $query="update  userRegistration set regNo=?,firstName=?,middleName=?,lastName=?
 $stmt = $mysqli->prepare($query);
 $rc=$stmt->bind_param('sssssisi',$regno,$fname,$mname,$lname,$gender,$contactno,$udate,$aid);
 $stmt->execute();
-echo"<script>alert('Profile updated Succssfully');</script>";
+echo"<script>alert('Profile updated Successfully');</script>";
 }
 ?>
 
